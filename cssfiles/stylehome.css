@@ -1,7 +1,7 @@
 /* Style sheet for the home page*/
 .start{
     margin-top: 33px;
-    background-image: url(photo.png);
+    background-image: url(images/photo.png);
     background-size: 100%;
     padding: 325px 200px;
     background-position: center;
@@ -10,5 +10,9 @@
   }
   .start h1{
     color: black;
+  }
+  h1{
+    text-align: center;
+    font-size: 60px;
   }
   
