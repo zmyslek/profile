@@ -1,0 +1,14 @@
+/* Style sheet for the home page*/
+.start{
+    margin-top: 33px;
+    background-image: url(photo.png);
+    background-size: 100%;
+    padding: 325px 200px;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+  }
+  .start h1{
+    color: black;
+  }
+  

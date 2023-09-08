@@ -1,8 +1,10 @@
+/*style sheet for the page about me */
 body{
   margin: 0;
   position: absolute;
   right: 0;
   width: 100%;
+  background-color: #d1f4fd;
 }
 #anchor {
   scroll-margin-top: 100px;
@@ -49,48 +51,6 @@ button{
 .bt{
   display: flex;
   justify-content: center;
-}
-.start{
-  margin-top: 33px;
-  background-image: url(photo.png);
-  background-size: 100%;
-  padding: 325px 200px;
-  background-position: center;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-}
-.start h1{
-  color: black;
-}
-.menu{
-  background-color: #333;
-  overflow: hidden;
-  position: fixed;
-  top: 0;
-  width: 100%;
-  left: 0;
-  z-index:3;
-}
-.menu ul{
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #333;
-}
-.menu li{
-  margin: 0;
-  float: left;
-}
-.menu li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-.menu li a:hover {
-  background-color: #111;
 }
 .contact a{
   font-weight: bold;
