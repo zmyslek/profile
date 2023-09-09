@@ -17,11 +17,12 @@
 }
 
 .topnav a.icon {
-  background: black;
+  background: grey;
   display: block;
   position: absolute;
   right: 0;
   top: 0;
+  z-index: 4;
 }
 
 .topnav a:hover {
