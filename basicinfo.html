@@ -7,38 +7,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Portfolio-about me</title>
-    <link rel="stylesheet" type="text/css" href="cssfiles/styleabtme.css">
-    <link rel="stylesheet" type="text/css" href="cssfiles/stylemenuabtme.css">
+    <link rel="stylesheet" type="text/css" href="cssfiles/style.css">
+    <link rel="stylesheet" type="text/css" href="cssfiles/stylehammenu.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
   <body>
-    <div class="menu">
-      <ul>
-        <li><a href="home.html">Home</a></li>
-        <li><a href="basicinfo.html">Basic information</a></li>
-        <li><a href="stmon.html">Study monitor</a></li>
-        <li><a href="faq.html">FAQ</a></li>
-        <li><a href="blog.html">Blog</a></li>
-        <li><a href="sitemap.html">Site map</a></li>
-        <li><a href="help.html">Help</a></li>
-      </ul>
-    </div>
-
     <main>
-      <!--Change to hamburger menu-->
-      <div class="menu" style="margin-top: 44px; background-color: #637e85;">
-        <ul>
-          <li><a href="#person">Personal</a></li>
-          <li><a href="#previous_edu">Education</a></li>
-          <li><a href="#now">At the moment</a></li>
-          <li><a href="#study">Why am I here?</a></li>
-          <li><a href="#itach">IT achivements</a></li>
-          <li><a href="#ach">Other achivements</a></li>
-          <li><a href="#int">Free Time</a></li>
-          <li><a href="#get">Get to know me better!</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-    </div>
-    <div class="personal" id="person">
+      <div class="topnav">
+        <div class="menu">
+          <a href="home.html">Home</a>
+          <a href="basicinfo.html">Basic information</a>
+          <a href="stmon.html">Study monitor</a>
+          <a href="faq.html">FAQ</a>
+          <a href="blog.html">Blog</a>
+          <a href="sitemap.html">Site map</a>
+          <a href="help.html">Help</a>
+        </div>
+        
+        <!--Hamburger menu-->
+        <div class="hammenu">
+          <a href="#person">Personal</a>
+          <a href="#previous_edu">Education</a>
+          <a href="#now">At the moment</a>
+          <a href="#study">Why am I here?</a>
+          <a href="#itach">IT achivements</a>
+          <a href="#ach">Other achivements</a>
+          <a href="#int">Free Time</a>
+          <a href="#get">Get to know me better!</a>
+          <a href="#contact">Contact</a> 
+        </div>
+        <a href="=javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
+
+      <div class="personal" id="person">
         <br>
         <br>
         <br>
@@ -195,6 +198,16 @@
         <br>
         <br>
       </div>
+      <script>
+        function myFunction() {
+          var x = document.getElementById("myLinks");
+          if (x.style.display === "block") {
+            x.style.display = "none";
+          } else {
+            x.style.display = "block";
+          }
+        }
+      </script>
     </main>
   </body>
   </html>
