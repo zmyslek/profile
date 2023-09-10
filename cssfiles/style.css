@@ -56,9 +56,3 @@ button{
 .contact a{
   font-weight: bold;
 }
-.cont{
-  display:none;
-}
-.show:hover .cont{
-  display: block;
-}
