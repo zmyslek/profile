@@ -1,6 +1,6 @@
 .cont{
     display: none;
   }
-  .show:hover .cont{
+.show:hover .cont{
     display: block;
-  }
+}
