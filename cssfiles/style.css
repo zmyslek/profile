@@ -7,9 +7,10 @@ body{
   background-color: #d1f4fd;
 }
 main{
-  margin-left:25%;
-  padding:1px 16px;
-  height:1000px;
+  padding:20px;
+  margin-top:60px;
+  background-color:#25beff;
+  height:1500px;
 }
 #anchor {
   scroll-margin-top: 100px;
