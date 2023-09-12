@@ -11,26 +11,37 @@
     <link rel="stylesheet" type="text/css" href="cssfiles/style.css">
   </head>
   <body>
-    <div class="menu">
-        <ul>
-          <li><a href="home.html" class="active">Home</a></li>
-          <li><a href="basicinfo.html">Basic information</a></li>
-          <li><a href="stmon.html">Study monitor</a></li>
-          <li><a href="faq.html">FAQ</a></li>
-          <li><a href="blog.html">Blog</a></li>
-          <li><a href="sitemap.html">Site map</a></li>
-          <li><a href="help.html">Help</a></li>
-        </ul>
-    </div>
     <main>
-        <section>
-          <img src="cssfiles/images/photo.png">
+        <section style="margin:0;">
           <fieldset style="background-color: white; opacity: 0.85; border-radius: 10px;">
-              <h1 style="font-weight: bold; opacity:1;">My portfolio</h1>
+            <h1 style="font-weight: bold; opacity:1;">My portfolio</h1>
           </fieldset>
+          <img src="cssfiles/images/photo.png">
         </section>
 
-        <section>
+        <section class="sitemap">
+          <h2>Site map</h2>
+          <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="basicinfo.html">Basic information</a></li>
+            <ul>
+              <li><a href="basicinfo.html#person">Personal</a></li>
+              <li><a href="#previous_edu">Education</a></li>
+              <li><a href="#now">At the moment</a></li>
+              <li><a href="#study">Why am I here?</a></li>
+              <li><a href="#itach">IT achivements</a></li>
+              <li><a href="#ach">Other achivements</a></li>
+              <li><a href="#int">Free Time</a></li>
+              <li><a href="#get">Get to know me better!</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+            <li><a href="faq.html">FAQ</a></li>
+            <li><a href="blog.html">Blog</a></li>
+          </ul>
+        </section>
+
+        <section style="background-color: #b1efff;">
+          <br>
           <h2>Links relevant to ICT:</h2>
           <ul>
             <li><a href="https://hz.nl/en/about-hz/organisation/regulations-and-documents#panel1945070https://hz.nl/" target="_blank" rel="noopener noreferrer">The HZ HBO-ICT Course and Examination Regulations (CER)</a></li>
@@ -40,10 +51,12 @@
             <li><a href="https://hz.osiris-student.nl/" target="_blank" rel="noopener noreferrer">MyHZ with my study progress</a></li>
             <li><a href="https://github.com/HZ-HBO-ICT"  target="_blank" rel="noopener noreferrer">The Github environment of the study program</a></li>
           </ul>
+          <br>
         </section>
 
         <section>
           <h2>Laptop and browser specifications:</h2>
+          <img src="cssfiles/images/laptop.jpg"
           <p><strong>Laptop:</strong></p>
           <ul>
             <li>Operation system: Windows</li>

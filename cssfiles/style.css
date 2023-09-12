@@ -1,16 +1,16 @@
 /*style sheet for the page about me */
 body{
   margin: 0;
-  position: absolute;
   right: 0;
   width: 100%;
   background-color: #d1f4fd;
-}
-main{
-  margin-top:60px;
+  margin-bottom: 5%;
 }
 #anchor {
   scroll-margin-top: 100px;
+}
+section{
+  margin-top: 2%;
 }
 hr{
   border: none;
