@@ -59,3 +59,10 @@ button{
 .contact a{
   font-weight: bold;
 }
+.bck{
+  margin: 0;
+  position: center;
+  width: 100%;
+  height: auto;
+  left:0;
+}
