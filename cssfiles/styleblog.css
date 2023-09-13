@@ -1,0 +1,18 @@
+date{
+    text-align: right;
+    float: right;
+    font-style: italic;
+    margin-right: 2%;
+}
+article{
+    width: 70%;
+}
+article, p{
+    margin-left: 2%;
+    font-size: medium;
+}
+fieldset{
+    width: 70%;
+    margin-left: 5%;
+    margin-right: 20%;
+}
