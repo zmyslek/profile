@@ -11,8 +11,12 @@ article, p{
     margin-left: 2%;
     font-size: medium;
 }
-fieldset{
+.fieldset{
     width: 70%;
     margin-left: 5%;
     margin-right: 20%;
+    background-color: #b1efff;
+}
+body{
+    background-image: url(images/blog.jpg);
 }

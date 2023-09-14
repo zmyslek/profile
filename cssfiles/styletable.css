@@ -1,11 +1,15 @@
 /*Style sheet for tables, especially student monitor/dashboard*/
 table{
-    border:1px solid #333;
-    width: 90%;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  th{
-    border:1px solid #333;
-    background-color: #b1efff;
-  }
+  border:1px solid #333;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+th{
+  border:1px solid #333;
+  background-color: #b1efff;
+}
+body{
+  background-image: url(images/stats.jpg);
+  height: 100%;
+}
