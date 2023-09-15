@@ -19,4 +19,5 @@ article, p{
 }
 body{
     background-image: url(images/blog.jpg);
+    height:100%;
 }
