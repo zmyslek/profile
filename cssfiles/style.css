@@ -3,8 +3,11 @@ body{
   margin: 0;
   right: 0;
   width: 100%;
-  background: no-repeat;
+  /*background-color: #7c7c7c;*/
   opacity: 1;
+}
+html{
+  scroll-padding-top: 44px;
 }
 main{
   background-color: #d1f4fd;
