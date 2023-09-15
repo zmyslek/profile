@@ -4,9 +4,3 @@
 .show:hover .cont{
     display: block;
 }
-body{
-    background-image: url(images/faq.jpg);
-    height: 100%;
-    z-index: 1;
-    position: absolute;
-}

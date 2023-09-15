@@ -3,7 +3,6 @@ body{
   margin: 0;
   right: 0;
   width: 100%;
-  opacity: 0.7;
   background: no-repeat;
 }
 main{
@@ -66,11 +65,4 @@ button{
 }
 .contact a{
   font-weight: bold;
-}
-.bck{
-  margin: 0;
-  position: center;
-  width: 100%;
-  height: auto;
-  left:0;
 }
