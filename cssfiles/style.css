@@ -9,6 +9,10 @@ body{
 html{
   scroll-padding-top: 44px;
 }
+div{
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
 main{
   background-color: #d1f4fd;
   margin-bottom: 5%;
@@ -58,10 +62,6 @@ button{
   padding: 10px 30px;
   display: inline;
   font-size: 15px;
-}
-.bt{
-  display: flex;
-  justify-content: center;
 }
 .contact a{
   font-weight: bold;
